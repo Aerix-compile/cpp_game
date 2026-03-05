@@ -1,0 +1,27 @@
+# Build output
+build/
+bin/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.user
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
