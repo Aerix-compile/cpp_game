@@ -1,58 +1,37 @@
-# \# Changelog
+# Changelog
 
-# 
+All notable changes to this project will be documented in this file.
 
-# All notable changes to this project will be documented in this file.
+## \[0.0.2] - 2026-03-15
 
-# 
+### Added
 
-# \## \[0.0.2] - 2026-03-15
+* Initial `CMakeLists.txt` setup
+* First engine source file: `engine/main.cpp`
+* Boot test input logic using:
 
-# \### Added
+  * `if`
+  * `else if`
+  * `else`
+  * comparison operators
+  * logical operators
 
-# \- Initial `CMakeLists.txt` setup
+### Confirmed
 
-# \- First engine source file: `engine/main.cpp`
+* Git and GitHub workflow working
+* MSYS2 g++ toolchain working
+* CMake installed and working
+* First CMake configure/build completed successfully
+* First engine boot executable runs successfully
 
-# \- Boot test input logic using:
+### Changed
 
-# &#x20; - `if`
+* Updated `.gitignore` to ignore executable files
 
-# &#x20; - `else if`
+## \[0.0.1] - 2026-03-14
 
-# &#x20; - `else`
+### Added
 
-# &#x20; - comparison operators
-
-# &#x20; - logical operators
-
-# 
-
-# \### Confirmed
-
-# \- Git and GitHub workflow working
-
-# \- MSYS2 g++ toolchain working
-
-# \- CMake installed and working
-
-# \- First CMake configure/build completed successfully
-
-# \- First engine boot executable runs successfully
-
-# 
-
-# \### Changed
-
-# \- Updated `.gitignore` to ignore executable files
-
-# 
-
-# \## \[0.0.1] - 2026-03-14
-
-# \### Added
-
-# \- Initial project structure
-
-# \- Initial changelog
+* Initial project structure
+* Initial changelog
 
