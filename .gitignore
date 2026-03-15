@@ -25,3 +25,8 @@ Desktop.ini
 
 # Logs
 *.log
+
+#Builded Executables
+*.exe
+*.obj
+*.o
