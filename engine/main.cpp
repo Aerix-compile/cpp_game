@@ -1,16 +1,22 @@
 #include <iostream> 
 
+void showMenu()
+{
+        std::cout << "*****Boot Test Menu*****\n";
+        std::cout << "1. Run Boot Test\n";
+        std::cout << "2. Exit\n";
+        std::cout << "************************\n";
+        std::cout << "Enter a number: \n";
+}
+
 int main()
 {
     bool running = true;
     int bootTestNumber;
 
     while(running){
-        std::cout << "*****Boot Test Menu*****\n";
-        std::cout << "1. Run Boot Test\n";
-        std::cout << "2. Exit\n";
-        std::cout << "************************\n";
-        std::cout << "Enter a number: \n";
+
+        showMenu();
         std::cin >> bootTestNumber;
 
         if(std::cin.fail()){
@@ -24,7 +30,7 @@ int main()
         }
 
         else if(bootTestNumber == 1){
-            std::cout << "Boot Test Successful.\n";
+        std::cout << "Boot Test Successful.\n";
         }
 
         else if(bootTestNumber == 2){

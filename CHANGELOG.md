@@ -1,5 +1,15 @@
 # Changelog
 
+#### 0.0.5
+
+**Added**
+
+- First user-defined function in `engine/main.cpp` named `showMenu()`
+
+**Changed**
+
+- Moved boot menu display code out of `main()` to make program flow easier to read 
+
 ## 0.0.4
 
 **Added**
