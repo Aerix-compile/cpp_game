@@ -5,14 +5,23 @@ void showMenu()
         std::cout << "*****Boot Test Menu*****\n";
         std::cout << "1. Run Boot Test\n";
         std::cout << "2. Exit\n";
+        std::cout << "3. Show Engine Version\n";
         std::cout << "************************\n";
-        std::cout << "Enter a number: \n";
+        std::cout << "Enter a number: ";
+}
+
+void showEngineVersion()
+{
+    std::cout << '\n';
+    std::string engineVersion = "0.0.6";
+    std::cout << "Current Engine Version: " << engineVersion << '\n';
 }
 
 int main()
 {
     bool running = true;
-    int bootTestNumber;
+
+    int bootTestNumber; 
 
     while(running){
 
@@ -25,7 +34,7 @@ int main()
             std::cin.ignore(1000, '\n');
         }
 
-        else if(bootTestNumber != 1 && bootTestNumber != 2){
+        else if(bootTestNumber != 1 && bootTestNumber != 2 && bootTestNumber != 3){
         std::cout << "Invalid input. Please enter a valid number. \n";
         }
 
@@ -36,6 +45,10 @@ int main()
         else if(bootTestNumber == 2){
         std::cout << "Exiting Boot Test Menu...\n";
         running = false;
+        }
+
+        else if(bootTestNumber == 3){
+        showEngineVersion();
         }
     }
     return 0;
