@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.7
+
+**Added**
+
+* Array that will print the booting status(test)
+
+* Function to call that Array upon selecting option 1
+
 ## 0.0.6
 
 **Added**
@@ -7,8 +15,6 @@
 * Function to check the engine's current version
 
 * Cleaned up some of the code
-
-
 
 ## 0.0.5
 

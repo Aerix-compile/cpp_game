@@ -17,6 +17,14 @@ void showEngineVersion()
     std::cout << "Current Engine Version: " << engineVersion << '\n';
 }
 
+void bootMenuSequence()
+{
+    std::string bootMenuText[] = {"Starting boot test...", "Starting engine...", "Booting game layer...", "Test Complete."};
+    
+    for(int i = 0; i < sizeof(bootMenuText) / sizeof(bootMenuText[0]); i++){
+        std::cout << bootMenuText[i] << '\n';
+    }
+}
 int main()
 {
     bool running = true;
@@ -39,7 +47,7 @@ int main()
         }
 
         else if(bootTestNumber == 1){
-        std::cout << "Boot Test Successful.\n";
+        bootMenuSequence();
         }
 
         else if(bootTestNumber == 2){
